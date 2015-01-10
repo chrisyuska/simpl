@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simpl Options</title>
+    <link href="options.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <h1>Simpl Options</h1>
+    <p>
+      This extension will allow you to save images from websites to a 
+      Picasa / Google+ photo album with 1 click.  This is useful for quickly 
+      creating your own "pin board," or if you're like me, for creating a 
+      repository of reply gifs to use more quickly in Hangouts.
+    </p>
+    <h2>Notes</h2>
+    <ul>
+      <li>
+        This only works for saving images, specifically images with the .bmp, 
+        .gif, .jpeg, or .png file type.  This is a restriction of 
+        Picasa / Google+, not mine.
+      </li>
+      <li>
+        You cannot create a new album with this extension.  You must either 
+        choose a pre-existing album in Picasa / Google+, or create one in 
+        either service.
+      </li>
+      <li>
+        To use, right click on an image and select "Save image to G+ Album." 
+        The image will then be uploaded to the album chosen before opening a 
+        new tab with the image in your album.
+      </li>
+    </ul>
+
+    <h2>Settings</h2>
+    <div id="alerts">
+    </div>
+
+    <div class="form-group">
+      <label>Album name:</label>
+      <select id="albums" name="albums">
+      </select>
+    </div>
+
+    <p id="status"></p>
+    <button id="save">Save</button>
+
+    <br/><br/>
+    <p>Copyright (c) 2015 Chris Yuska.  All rights reserved.</p>
+
+    <script src="options.js"></script>
+  </body>
+</html>

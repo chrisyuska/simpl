@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2,
+
+  "name": "simpl",
+  "description": "This extension saves any image to Google+ Photos with a right click. (simpl stands for Save IMage to google PLus) ",
+  "version": "0.1",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": ["notify.css"],
+      "js": ["notify.js"]
+    }
+  ],
+  "oauth2": {
+    "client_id": "940960371705-3mn005fr7da36g474k5fn3erj935966h.apps.googleusercontent.com",
+    "scopes": [
+      "https://picasaweb.google.com/data/"
+    ]
+  },
+  "options_page": "options.html",
+  "permissions": [
+    "activeTab",
+    "contextMenus",
+    "identity",
+    "storage",
+    "tabs"
+  ]
+}

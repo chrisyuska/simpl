@@ -1,0 +1,35 @@
+.simpl-notifications-area {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+}
+
+.simpl-notifications-area > div {
+  overflow: hidden;
+  background: white;
+  margin: 20px 0 0 0;
+  border-radius: 6px;
+  border: 1px solid #CCC;
+  color: #444;
+  opacity:1;
+  transition: all 2s; 
+}
+
+.simpl-notifications-area > div.fade {
+  opacity: 0;
+}
+
+.simpl-notifications-area > div > img {
+  float: left;
+  height: 40px;
+  width: 40px;
+}
+
+.simpl-notifications-area > div > p {
+  float: left;
+  padding: 14px;
+  margin: 0;
+  font-size: 12px;
+  line-height: 12px;
+}

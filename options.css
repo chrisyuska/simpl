@@ -1,0 +1,17 @@
+body {
+  margin: 30px;
+  max-width: 600px;
+}
+
+#status, #alerts {
+  color: red;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+li {
+  padding: 4px 0;
+}
