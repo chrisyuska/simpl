@@ -3,7 +3,7 @@
 
   "name": "simpl",
   "description": "This extension saves any image to Google+ Photos with a right click. (simpl stands for Save IMage to google PLus) ",
-  "version": "0.1",
+  "version": "0.2",
   "background": {
     "scripts": ["background.js"],
     "persistent": false
